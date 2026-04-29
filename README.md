@@ -10,21 +10,25 @@ A simple Retrieval-Augmented Generation (RAG) application built with Streamlit.
 - Generate answers using OpenAI GPT when an API key is provided
 
 ## Setup
+1. Create a .env file with the name the code as follows
+   ```python
+   GEMINI_API_KEY =
+   ```
 
-1. Create a Python environment:
+3. Create a Python environment:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-3. Run the app:
+4. Run the app:
 
 ```powershell
 streamlit run app.py
